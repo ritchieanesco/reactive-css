@@ -1,0 +1,54 @@
+Compass / Reactive Boilerplate Template
+=======================================
+
+Boilerplate template consisting of 3 partials and 2 helper files.
+
+
+Installation
+============
+
+From the command line:
+
+    (sudo) gem install reactive
+
+Add to a project:
+
+    // rails: compass.config, other: config.rb
+    require 'reactive'
+
+    // command line
+    compass install reactive
+    
+Or create a new project:
+
+    compass -r reactive -f reactive project_directory
+
+
+Reset
+==========
+Standard Reset from Eric Meyers
+To import use @import("reactive/reset");
+
+
+Clearfix
+==========
+Clearfix with has layout option for ie. Requires a boolean to enable/disable item.
+To import use @import("reactive/clearfix");
+To use @include clearfix;
+
+
+Variable to enable/disable ie is: $legacy-support-for-ie
+
+
+Font Library
+============
+HTML fonts available by calling a variable
+$helvetica
+$geneva
+$lucida
+$verdana
+$cambria
+$palatino
+$times
+$courier
+$monaco
